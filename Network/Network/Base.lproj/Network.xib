@@ -16,7 +16,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="176" y="715" width="656" height="536"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="745"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="768"/>
             <view key="contentView" id="se5-gp-TjO">
                 <rect key="frame" x="0.0" y="0.0" width="656" height="536"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -44,6 +44,14 @@
                             <rect key="frame" x="3" y="3" width="480" height="399"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
+                                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1I-P2-Ynn">
+                                    <rect key="frame" x="46" y="15" width="207" height="18"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <buttonCell key="cell" type="check" title="Show Wi-Fi status in menu bar" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="ffg-YL-us4">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
                                 <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eok-Ns-PIY">
                                     <rect key="frame" x="447" y="9" width="25" height="25"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -68,14 +76,24 @@
                                         <font key="font" metaFont="system"/>
                                     </buttonCell>
                                 </button>
-                                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1I-P2-Ynn">
-                                    <rect key="frame" x="46" y="15" width="207" height="18"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <buttonCell key="cell" type="check" title="Show Wi-Fi status in menu bar" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="ffg-YL-us4">
-                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ss-sn-exj">
+                                    <rect key="frame" x="160" y="360" width="91" height="17"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Connected" id="VqO-Xw-PKa">
+                                        <font key="font" metaFont="systemBold"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TJF-Gy-zsj">
+                                    <rect key="frame" x="109" y="360" width="47" height="17"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Status:" id="CWk-Ax-LzY">
                                         <font key="font" metaFont="system"/>
-                                    </buttonCell>
-                                </button>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
                             </subviews>
                         </view>
                     </box>
