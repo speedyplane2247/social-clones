@@ -37,7 +37,7 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <box fixedFrame="YES" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="REB-wo-WyZ">
+                    <box fixedFrame="YES" title=" " translatesAutoresizingMaskIntoConstraints="NO" id="REB-wo-WyZ">
                         <rect key="frame" x="150" y="57" width="486" height="417"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <view key="contentView" id="99q-Ud-V0m">
@@ -45,7 +45,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </view>
                     </box>
-                    <box fixedFrame="YES" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="xq8-b8-Cv1">
+                    <box fixedFrame="YES" title=" " translatesAutoresizingMaskIntoConstraints="NO" id="xq8-b8-Cv1">
                         <rect key="frame" x="17" y="57" width="131" height="417"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <view key="contentView" id="0OW-AV-i26">
@@ -53,6 +53,29 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </view>
                     </box>
+                    <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWD-zj-yGo">
+                        <rect key="frame" x="193" y="478" width="368" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Automatic" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="kYR-4y-Lud">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <objectValues>
+                                <string>Automatic</string>
+                                <string>_____________</string>
+                                <string>Select Custom...</string>
+                            </objectValues>
+                        </comboBoxCell>
+                    </comboBox>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FSX-PL-zhW">
+                        <rect key="frame" x="127" y="483" width="60" height="17"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Location:" id="ukT-g9-6bJ">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <point key="canvasLocation" x="134" y="231"/>
