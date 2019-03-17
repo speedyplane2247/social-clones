@@ -11,6 +11,13 @@
 		3F797C88223C120500071B42 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F797C87223C120500071B42 /* Network.m */; };
 		3F797C8A223C120500071B42 /* Network.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C89223C120500071B42 /* Network.tiff */; };
 		3F797C8D223C120500071B42 /* Network.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C8B223C120500071B42 /* Network.xib */; };
+		3F797C98223C33F100071B42 /* AppLock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C94223C33F100071B42 /* AppLock.png */; };
+		3F797C99223C33F100071B42 /* yellow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C95223C33F100071B42 /* yellow.tiff */; };
+		3F797C9A223C33F100071B42 /* red.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C96223C33F100071B42 /* red.tiff */; };
+		3F797C9B223C33F100071B42 /* green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C97223C33F100071B42 /* green.tiff */; };
+		3F797C9F223C34EF00071B42 /* BlueTooth.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C9C223C34EF00071B42 /* BlueTooth.tiff */; };
+		3F797CA0223C34EF00071B42 /* Ethernet.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C9D223C34EF00071B42 /* Ethernet.tiff */; };
+		3F797CA1223C34EF00071B42 /* Airport.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C9E223C34EF00071B42 /* Airport.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		3F797C89223C120500071B42 /* Network.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Network.tiff; sourceTree = "<group>"; };
 		3F797C8C223C120500071B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Network.xib; sourceTree = "<group>"; };
 		3F797C8E223C120500071B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F797C94223C33F100071B42 /* AppLock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLock.png; sourceTree = "<group>"; };
+		3F797C95223C33F100071B42 /* yellow.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = yellow.tiff; sourceTree = "<group>"; };
+		3F797C96223C33F100071B42 /* red.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red.tiff; sourceTree = "<group>"; };
+		3F797C97223C33F100071B42 /* green.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = green.tiff; sourceTree = "<group>"; };
+		3F797C9C223C34EF00071B42 /* BlueTooth.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = BlueTooth.tiff; sourceTree = "<group>"; };
+		3F797C9D223C34EF00071B42 /* Ethernet.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Ethernet.tiff; sourceTree = "<group>"; };
+		3F797C9E223C34EF00071B42 /* Airport.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Airport.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,13 @@
 		3F797C84223C120500071B42 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				3F797C9E223C34EF00071B42 /* Airport.tiff */,
+				3F797C9C223C34EF00071B42 /* BlueTooth.tiff */,
+				3F797C9D223C34EF00071B42 /* Ethernet.tiff */,
+				3F797C94223C33F100071B42 /* AppLock.png */,
+				3F797C97223C33F100071B42 /* green.tiff */,
+				3F797C96223C33F100071B42 /* red.tiff */,
+				3F797C95223C33F100071B42 /* yellow.tiff */,
 				3F797C85223C120500071B42 /* Network.h */,
 				3F797C87223C120500071B42 /* Network.m */,
 				3F797C89223C120500071B42 /* Network.tiff */,
@@ -131,6 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F797C8D223C120500071B42 /* Network.xib in Resources */,
+				3F797C9A223C33F100071B42 /* red.tiff in Resources */,
+				3F797C9B223C33F100071B42 /* green.tiff in Resources */,
+				3F797CA0223C34EF00071B42 /* Ethernet.tiff in Resources */,
+				3F797C9F223C34EF00071B42 /* BlueTooth.tiff in Resources */,
+				3F797CA1223C34EF00071B42 /* Airport.tiff in Resources */,
+				3F797C98223C33F100071B42 /* AppLock.png in Resources */,
+				3F797C99223C33F100071B42 /* yellow.tiff in Resources */,
 				3F797C8A223C120500071B42 /* Network.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
